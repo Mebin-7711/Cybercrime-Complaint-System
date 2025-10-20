@@ -1,4 +1,4 @@
-import javax.swing.SwingUtilities;
+// import javax.swing.SwingUtilities; // DELETE this line
 
 // Note: No package declaration is here, making it the default package.
 public class App {
@@ -35,10 +35,12 @@ public class App {
             e.printStackTrace();
         }
 
-        // Launch GUI
+        // DELETE the GUI launch code below:
+        /*
         SwingUtilities.invokeLater(() -> {
             MainUI ui = new MainUI();
             ui.setVisible(true);
         });
+        */
     }
 }
